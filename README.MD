@@ -1,3 +1,4 @@
+![Terraform](https://img.shields.io/badge/IaC-Terraform-blue)
 # 📘 Terraform Associate (003) Study Guide
 
 Welcome to the **Terraform Associate (003)** certification prep repo! This repository is a comprehensive and structured guide to help you study and practice for the **HashiCorp Certified: Terraform Associate (003)** exam.
