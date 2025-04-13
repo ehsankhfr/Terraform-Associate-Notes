@@ -114,3 +114,62 @@
 29. You created 3 EC2 instances using `count = 3`. How would you reference the ID of the second instance?
 
 30. You're importing an existing AWS instance with `terraform import`. What must you do next?
+
+---
+
+## ✅ **Answers – Terraform Resource Practice**
+
+### 🔢 **Multiple Choice (Single Answer)**
+
+1. **C** – A specific infrastructure object  
+2. **B** – `resource "<PROVIDER>_<TYPE>" "<NAME>" {}`  
+3. **D** – Resource name  
+4. **B** – Creates 3 copies of the resource  
+5. **C** – `for_each`  
+6. **B** – `create_before_destroy`  
+7. **B** – Sets a dependency that forces order of creation  
+8. **C** – Fine-tune how Terraform handles changes  
+9. **B** – `prevent_destroy`  
+10. **B** – `ignore_changes`  
+
+---
+
+### ✅ **True or False**
+
+11. **False** – `for_each` works with maps and sets, not just numbers  
+12. **False** – `depends_on` is optional and only used when Terraform can’t infer dependencies  
+13. **False** – Provisioners are discouraged and not ideal for all deployments  
+14. **True** – E.g., `aws_instance.web[1].id`  
+15. **True** – Tags help with cost tracking and identification  
+
+---
+
+### 📌 **Fill in the Blank**
+
+16. **Resource type**  
+17. **output**  
+18. **variables**  
+19. **provisioners**  
+20. **terraform.tfstate**
+
+---
+
+### 🔄 **Matching**
+
+| Question | Answer |
+|----------|--------|
+| 21       | **A → 5** – `count`: Creates multiple copies of a resource  
+| 22       | **B → 3** – `for_each`: Iterates over a map or set  
+| 23       | **C → 2** – `depends_on`: Forces execution order  
+| 24       | **D → 4** – `lifecycle`: Adjusts resource handling during apply  
+| 25       | **E → 1** – `ignore_changes`: Skips changes to certain attributes  
+
+---
+
+### 🔍 **Scenario-Based**
+
+26. **Use `for_each` with a set or list**  
+27. **Terraform will destroy the resource since it's no longer declared in config**  
+28. **To avoid accidental deletion of critical infrastructure like databases or IAM roles**  
+29. **`aws_instance.web[1].id`**  
+30. **Write the matching resource block in configuration manually**
