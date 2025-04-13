@@ -90,4 +90,4 @@ Here's a quick overview of what's covered:
 
 ## 📜 License
 
-This content is open-source and free to use under the [MIT License](LICENSE).
+This content is open-source and free to use under the [MIT License](LICENSE.MD).
